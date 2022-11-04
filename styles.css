@@ -85,8 +85,7 @@ body {
 .navbar {
 
   position: absolute;
-  top: 6px: 
-  display: flex;
+  top: 6px: display: flex;
   justify-content: center;
   background-color: #bf9a69;
   border-radius: 50px;
@@ -94,12 +93,12 @@ body {
 }
 
 
-#contact  {
+#contact {
   background-color: rgba(0, 0, 255, 0.689);
   color: #fff;
   border-radius: 8px;
-  width: 90px; 
-  
+  width: 90px;
+
 
 }
 
@@ -157,7 +156,7 @@ body {
   position: absolute;
   width: auto;
   top: 20px;
-  
+
 }
 
 #titre {
@@ -196,11 +195,11 @@ a.nav-link {
 }
 
 .navbar-nav {
-  
+
   display: flex;
   flex-direction: row;
   width: 650px;
-  padding:5px;
+  padding: 5px;
   margin-bottom: 0;
   /* list-style: none; */
   align-items: center;
@@ -354,38 +353,38 @@ footer {
 @media screen and (max-width: 1000px) {
 
 
-#contact {
-color: white;
-  margin-left: -4px;
-  element {
+  #contact {
+    color: white;
+    margin-left: -4px;
     cursor: pointer;
-}
-.navbar-toggler {
-  display: none;
-}
+  }
 
-  
-  .navbar-nav, :active {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-nav {
     position: relative;
-   height: auto;
-   width: 580px;
-   left: -18px;
-   color: white;
-   background-color:#bf9a69;
-   font-size:small;
-   font-weight: 900;
-   border-radius: 5px;
-   opacity: 0.8;
+    height: auto;
+    width: 580px;
+    left: -18px;
+    background-color: brown;
+    color: white;
+    font-size: small;
+    font-weight: 900;
+    border-radius: 6px;
+    scrollbar-color: rgb(0, 17, 255);
+    opacity: 0.8;
 
-  } 
+  }
 
-  .navbar-link.active{
+  .navbar-link.active {
     z-index: 1000;
-    font-size:xx-small;
+    font-size: xx-small;
     /* overflow: hidden; */
-    scroll-margin-bottom: 0 ;
+    scroll-margin-bottom: 0;
     scrollbar-3dlight-color: #ff0000;
-  } 
+  }
 
   /* .nav-item{
     margin-left: 0px;
@@ -396,14 +395,12 @@ color: white;
     left: 0;
     color: #fff;
     /* background-color: #221c07; */
-    /* width: 100px;
+  /* width: 100px;
     height: 80px; */
-    /* margin-left: 20px; */
+  /* margin-left: 20px; */
 
-  /* } */ */
-
- 
-
+  /* } */
+  */
   /* .form {
     width: 50px;
     left: 0;
