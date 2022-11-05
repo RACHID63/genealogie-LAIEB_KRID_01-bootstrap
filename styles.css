@@ -156,6 +156,7 @@ body {
   position: absolute;
   width: auto;
   top: 20px;
+  border-radius: 5px;
 
 }
 
@@ -351,6 +352,8 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  
+
 
 
   #contact {
@@ -364,6 +367,7 @@ footer {
   }
 
   .navbar-nav {
+    overflow-y: hidden;
     position: relative;
     height: auto;
     width: 580px;
@@ -378,12 +382,13 @@ footer {
 
   }
 
-  .navbar-link.active {
+  .nav-link {
+    height: auto;
     z-index: 1000;
-    font-size: xx-small;
-    /* overflow: hidden; */
-    scroll-margin-bottom: 0;
-    scrollbar-3dlight-color: #ff0000;
+    margin-top: -11px;
+    font-size: 13px;
+    overflow: hidden;
+    
   }
 
   /* .nav-item{
