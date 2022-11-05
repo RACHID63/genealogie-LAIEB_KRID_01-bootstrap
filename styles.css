@@ -364,7 +364,6 @@ footer {
   }
 
   .navbar-nav {
-    overflow-y: hidden;
     position: relative;
     height: auto;
     width: 580px;
@@ -384,29 +383,15 @@ footer {
     z-index: 1000;
     margin-top: -11px;
     font-size: 13px;
-    overflow: hidden;
     
   }
 
-  /* .nav-item{
-    margin-left: 0px;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    margin-top: 18px;
-    left: 0;
-    color: #fff;
-    /* background-color: #221c07; */
-  /* width: 100px;
-    height: 80px; */
-  /* margin-left: 20px; */
-
-  /* } */
-  */
-  /* .form {
-    width: 50px;
-    left: 0;
-    position: absolute;
-  } */
+  .nav-item{
+    background-color: azure;
+    top: 5;
+    margin-left: 7px;
+    margin-top: 1px;
+    
+   } 
 
 }
