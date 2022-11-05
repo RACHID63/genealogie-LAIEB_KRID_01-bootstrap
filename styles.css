@@ -353,9 +353,6 @@ footer {
 
 @media screen and (max-width: 1000px) {
   
-
-
-
   #contact {
     color: white;
     margin-left: -4px;
@@ -374,7 +371,7 @@ footer {
     left: -18px;
     background-color: brown;
     color: white;
-    font-size: small;
+    font-size: 10px;
     font-weight: 900;
     border-radius: 6px;
     scrollbar-color: rgb(0, 17, 255);
