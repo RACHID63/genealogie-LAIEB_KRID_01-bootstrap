@@ -491,7 +491,7 @@ h2 {
 
   .footercontainer {
     height: 80px;
-    width: 100%;
+    width: 100vw;
     background: #504702c8;
     position: fixed;
     bottom: 0;
