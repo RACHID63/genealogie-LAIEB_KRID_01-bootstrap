@@ -437,7 +437,7 @@ h2 {
   .sidebar {
     padding: 0px;
     position: absolute;
-    left: -17px;
+    left: 4px;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -451,15 +451,18 @@ h2 {
 
 
 
-  #introduction, .intro1 {
+  #text1, .intro1 {
+    background-color: rgb(211, 220, 191);
     width: 263px;
-    height: 175px;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
     position: absolute;
     top: 250;
-    left: 10;
+    left: 6;
     border: solid 1px black;
     font-size: 15px;
-    /* margin-left: 0px; */
+    
   }
 
   #lignéepaternel, .intro1 {
@@ -468,7 +471,21 @@ h2 {
     height: 356px;
   }
   
-
+  .footercontainer {
+    height: 100px;
+    width: 100vw;
+    background: #504702c8;
+    position: fixed;
+    bottom: 0;
+    margin-left: 0px;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content:center
+    opacity: 2;
+  }
   
 }
 
