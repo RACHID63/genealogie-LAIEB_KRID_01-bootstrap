@@ -99,7 +99,7 @@ nav {
   width: fit-content;
 }
 
-.btn-group-lg > .btn,
+.btn-group-lg>.btn,
 .btn-lg {
   display: inline-flex;
   flex-direction: row;
@@ -148,11 +148,9 @@ button {
 
 #introduction {
   opacity: 0.9;
-  background: radial-gradient(
-    circle,
-    rgb(229, 221, 232) 0%,
-    rgb(48, 103, 168) 100%
-  );
+  background: radial-gradient(circle,
+      rgb(229, 221, 232) 0%,
+      rgb(48, 103, 168) 100%);
   -webkit-box-shadow: 0px 4px 38px 3px #51fffb;
   box-shadow: 0px 1px 38px 25px #f3edf8;
   font-size: 28px;
@@ -244,11 +242,9 @@ p .paragraphe1 {
   border: solid black;
   border-radius: 5 px;
   background: rgb(12, 105, 105);
-  background: radial-gradient(
-    circle,
-    rgba(174, 221, 238, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(174, 221, 238, 1) 0%,
+      rgba(148, 187, 233, 1) 100%);
   -webkit-box-shadow: 0px 4px 38px 3px #51fffb;
   box-shadow: 0px 1px 38px 25px #f3edf8;
   overflow: hidden;
@@ -431,14 +427,14 @@ h2 {
   }
 
   .prénom {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .sidebar {
     padding: 0px;
     position: absolute;
     top: 153px;
-    left: 0px;
+    left: -15px;
     margin-left: -8px;
     margin-top: 100px;
     display: flex;
@@ -473,18 +469,28 @@ h2 {
 
   #text1 {
     margin-left: 15px;
-
   }
 
   #lignéepaternel,
   .intro1 {
+    background: none;
     position: absolute;
     top: 0px;
-    height: 356px;
+    margin-left: 15px;
+    height: 500px;
   }
 
-  .footercontainer.footer {
-    height: 40px;
+  #lignéepaternel,
+  .intro1 {
+    background: none;
+    position: absolute;
+    top: 3px;
+    margin-left: 12px;
+    height: 500px;
+  }
+
+  .footercontainer {
+    height: 80px;
     width: auto;
     background: #504702c8;
     position: fixed;
@@ -496,5 +502,9 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+  }
+
+  .icon {
+    width: 12px;
   }
 }
