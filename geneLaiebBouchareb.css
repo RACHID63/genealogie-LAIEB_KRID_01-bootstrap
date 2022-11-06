@@ -491,15 +491,15 @@ h2 {
 
   .footercontainer {
     height: 80px;
-    width: auto;
+    width: 100%;
     background: #504702c8;
     position: fixed;
     bottom: 0;
     margin-left: 0px;
     display: flex;
     flex: row;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     align-content: center;
   }
