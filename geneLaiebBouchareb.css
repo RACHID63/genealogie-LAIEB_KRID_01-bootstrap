@@ -166,6 +166,9 @@ button {
   transition: 10;
   font-size: 25px;
   width: 1200px;
+  overflow-y:visible;
+  scrollbar-color: rebeccapurple green;
+  scroll-padding-inline-start: 0px;
 }
 
 p .paragraphe1 {
@@ -376,7 +379,13 @@ h2 {
 }
 
 @media screen and (max-width: 850px) {
-  body {
+
+  .boxcaroussel  {
+    margin-top: 162px;
+  }
+
+
+  /* body {
     background-color: #bf9a69;
     background-image: none;
     width: auto;
@@ -450,14 +459,15 @@ h2 {
   #introduction {
     visibility: visible;
     width: 268px;
-    left: 89px;
+    left: 120px;
+    scroll-snap-type-y: 0;
   }
 
   #text1,
   .intro1 {
     background-color: rgb(211, 220, 191);
     width: 220px;
-    height: auto;
+    height: 500px;
     padding: 15px;
     border-radius: 5px;
     position: absolute;
@@ -465,6 +475,8 @@ h2 {
     left: 8;
     border: solid 1px black;
     font-size: 15px;
+    overflow: hidden;
+   
   }
 
   #text1 {
@@ -486,7 +498,7 @@ h2 {
     position: absolute;
     top: 3px;
     margin-left: 12px;
-    height: 700px;
+    height:550px;
   }
 
   .footercontainer {
@@ -506,5 +518,5 @@ h2 {
 
   .icon {
     width: 12px;
-  }
+  } */
 }

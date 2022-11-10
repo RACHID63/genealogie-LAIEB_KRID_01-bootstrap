@@ -14,40 +14,48 @@
 </head>
 <body class="bg-danger float-sm">
   <header
-    class=" container-fluid heider  d-flex flex-column flex-wrap-nowrap align-items-center align-content-center">
+    class="container heider  d-flex flex-column flex-wrap-nowrap align-items-center align-content-center">
     <div  class="container  boxheider " >
        <!-- navbar -->
-    <nav class=" navbar  navbar-expand-lg navbar-light   navbar-warning bg-warning container position-absolute ">
-      <div   class=" container integrationmenu">
-        <div class="navbaraccueil ">
-          <a class="navbar-brand " href="#">ACCUEIL</a>
+       <nav class="container navbar  navbar-expand-lg navbar-light   navbar-warning bg-warning  position-absolute  ">
+        <div   class="  integrationmenu">
+          <div class="navbaraccueil ">
+            <a class="navbar-brand ms-5" href="#">ACCUEIL</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-toggleMobileMenu" style="--bs-toggleMobileMenu-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"> Histoire LAIEB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./geneLaiebbouchareb.html">généalogie LAIEB</a>
+              </li>
+              <li class="nav-item">
+                <a  class="btn-lg  btn-primary text-decoration-none " data-bs-toggle="modal" data-bs-target="#contacModal">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="./login.html" class="btn-lg btn-danger text-decoration-none ">login</a>
+              </li>
+            
+              <li class="nav-item">
+                <a href="./sign.html" class="btn-lg btn-success text-decoration-none ">sign</a>
+  
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control  " type="search" placeholder="recherche ton Nom" aria-label="Search">
+              <button class="btnsearch btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"> Histoire LAIEB</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./geneLaiebbouchareb.html">généalogie LAIEB</a>
-            </li
-            <li class="nav-item">
-              <a id="contact" data-bs-toggle="modal" data-bs-target="#contacModal">Nous contacter</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="recherche ton Nom" aria-label="Search">
-            <button class="btnsearch btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        
+      </nav>
     <!-- navbar -->
     <!-- ------caroussel------- -->
-  <div class="  boxcaroussel ">
+  <div class=" boxcaroussel ">
     <div class=" boxtitre">
       <div class="container" id="titre" >
         <H1> ASSOCIATION <br> HISTOIRE ET GENEALOGIE </H1>

@@ -30,13 +30,19 @@ header a img {
 }
 
 .sign {
- 
   width: 300px;
   top: 300px;
 }
 
+div>.form {
+  width: 203px;
+  margin-left: 0;
+  height: 203px;
+
+}
+
 .login-page {
-  width: 360px;
+  width: 280px;
   padding: 8% 0 0;
   margin: auto;
 }
@@ -45,17 +51,18 @@ header a img {
   margin-bottom: 26px;
 }
 .form {
-  height: 300px;
+  z-index: 1;
+  height: 280px;
   background-image: url(./images/payrus-02.png);
   background-repeat: no-repeat;
   background-size: 370px;
   position: relative;
-  z-index: 1;
-  max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
-  box-shadow: -40px 90px 40px rgb(67, 63, 63 );
+  box-shadow: -40px 90px 40px  rgb(67, 63, 63 ,0.8);
+  
+  
 }
 .form input {
   font-family: "Roboto", sans-serif;
