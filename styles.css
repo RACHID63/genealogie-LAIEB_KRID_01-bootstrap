@@ -57,12 +57,12 @@ h1 {
   font-size: 40;
 }
 
-body {
+.header {
   font-size: var(--font-size);
   background-color: #bf9a69;
   max-width: 100vmax;
   height: 100vh;
-  background-image: url(./images/compass-2946959_1920.jpg);
+  /* background-image: url(./images/compass-2946959_1920.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -235,13 +235,15 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
 .footercontainer {
   border: solid 2px white;
   height: 100px;
-  width: 100vw;
+  width: 100%;
   background: #002334;
+  width: 100vw;
 }
 
 .wrapper .button {
@@ -345,21 +347,47 @@ footer {
 
  @media screen and (max-width: 800px) {
 
+  body {
+    
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-image:url();
+    background-color: #ff0000;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 36px;
+    left: 1;
+    width: 20px;
+  }
+
 
   .btn-lg {
-   
+    z-index: 100px;
     width: 123.5px;
-   
-
+  
   }
 
   .navbar-nav {
-    width: 115px;
+    z-index: 100px;
+    width: auto;
     display: flex;
     position: absolute;
     left: 39px;
-    top: 75px;
+    top:100px;
 
+  }
+
+  .boxcaroussel {
+    position: absolute;
+    top: 358px;
   }
   
   /* #contact {
