@@ -8,6 +8,21 @@
   text-decoration: none;
 }
 
+body {
+
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/compass-2946959_1920.jpg);
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-color: #ff0000;
+}
+
 ul {
   list-style: none;
 }
@@ -62,7 +77,7 @@ h1 {
   background-color: #bf9a69;
   max-width: 100vmax;
   height: 100vh;
-  /* background-image: url(./images/compass-2946959_1920.jpg); */
+  background-image: url(./images/compass-2946959_1920.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -98,7 +113,7 @@ form {
 
 .btn-lg {
   margin-left: 10px;
- 
+
 }
 
 .navbaraccueil :hover {
@@ -127,13 +142,14 @@ form {
   top: 159px;
   width: 600px;
   height: 500px;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
-  /* left: 35%; */
+  font-weight:bolder;
+ 
 }
 
 #carouselSlidesOnly {
@@ -160,7 +176,7 @@ form {
 
 #titre {
   margin-top: 20px;
-  background-image: url(./images/Wood_Texture_2_14-1024x683.jpg);
+  /* background-image: url(./images/Wood_Texture_2_14-1024x683.jpg); */
   opacity: 0.75;
   width: 508px;
   height: 142px;
@@ -176,6 +192,7 @@ form {
 .btnsearch {
   width: 150px;
   height: 35px;
+  margin-left: 21px;
   border-radius: 21px;
   background-color: aqua;
 }
@@ -192,7 +209,7 @@ form {
 a.nav-link {
   margin-left: 0px;
 }
-
+ 
 .navbar-nav {
 
   display: flex;
@@ -235,15 +252,18 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+  justify-content: center;
 }
 
 .footercontainer {
   border: solid 2px white;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px ;
   height: 100px;
   width: 100%;
   background: #002334;
   width: 100vw;
+  
 }
 
 .wrapper .button {
@@ -345,21 +365,23 @@ footer {
   justify-content: center;
 }
 
- @media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
   body {
-    
+
     width: auto;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
     justify-content: center;
-    background-image:url();
+    background-image: url(./images/compass-2946959_1920.jpg);
     background-color: #ff0000;
   }
 
   .form {
+    width: 180px;
+    margin-left: 230px;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -372,7 +394,7 @@ footer {
   .btn-lg {
     z-index: 100px;
     width: 123.5px;
-  
+
   }
 
   .navbar-nav {
@@ -381,15 +403,16 @@ footer {
     display: flex;
     position: absolute;
     left: 39px;
-    top:100px;
+    top: 100px;
 
   }
 
   .boxcaroussel {
     position: absolute;
-    top: 358px;
+    top: 350px;
+    
   }
-  
+
   /* #contact {
     color: white;
     margin-left: -4px;
@@ -442,4 +465,4 @@ footer {
    width: 1px;
   } */
 
-} 
+}
