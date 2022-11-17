@@ -99,7 +99,7 @@ nav {
   width: fit-content;
 }
 
-.btn-group-lg>.btn,
+.btn-group-lg > .btn,
 .btn-lg {
   display: inline-flex;
   flex-direction: row;
@@ -148,9 +148,11 @@ button {
 
 #introduction {
   opacity: 0.9;
-  background: radial-gradient(circle,
-      rgb(229, 221, 232) 0%,
-      rgb(48, 103, 168) 100%);
+  background: radial-gradient(
+    circle,
+    rgb(229, 221, 232) 0%,
+    rgb(48, 103, 168) 100%
+  );
   -webkit-box-shadow: 0px 4px 38px 3px #51fffb;
   box-shadow: 0px 1px 38px 25px #f3edf8;
   font-size: 28px;
@@ -166,7 +168,7 @@ button {
   transition: 10;
   font-size: 25px;
   width: 1200px;
-  overflow-y:visible;
+  overflow-y: visible;
   scrollbar-color: rebeccapurple green;
   scroll-padding-inline-start: 0px;
 }
@@ -245,9 +247,11 @@ p .paragraphe1 {
   border: solid black;
   border-radius: 5 px;
   background: rgb(12, 105, 105);
-  background: radial-gradient(circle,
-      rgba(174, 221, 238, 1) 0%,
-      rgba(148, 187, 233, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(174, 221, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   -webkit-box-shadow: 0px 4px 38px 3px #51fffb;
   box-shadow: 0px 1px 38px 25px #f3edf8;
   overflow: hidden;
@@ -379,33 +383,35 @@ h2 {
 }
 
 @media screen and (max-width: 850px) {
-
-  .boxcaroussel  {
+  .boxcaroussel {
     margin-top: 162px;
   }
 
-
-   body {
+  body {
     background-color: #bf9a69;
     background-image: none;
     width: auto;
     height: auto;
   }
 
-  .header.container {
+  .header.container.btn-lg {
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
-    border-bottom-right-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
     background: none;
     opacity: 2;
-    width: 350px;
-    height: 144px;
+    width: 100%;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
+
+  /* .containerpersonne2 {
+    position:absolute;
+  } */
 
   .btnAcceuil {
     width: 100px;
@@ -476,7 +482,6 @@ h2 {
     border: solid 1px black;
     font-size: 15px;
     overflow: hidden;
-   
   }
 
   #text1 {
@@ -488,17 +493,31 @@ h2 {
     background: none;
     position: absolute;
     top: 0px;
-    margin-left: 15px;
-    height: 500px;
+    margin-left: 15%;
+    height: 585px;
+    width: 474px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px black;
+    font-size: 15px;
+    color: black;
+    overflow: hidden;
   }
 
-  #lignéepaternel,
-  .intro1 {
+  #lignéepaternel .intro1 {
     background: none;
     position: absolute;
-    top: 3px;
-    margin-left: 12px;
-    height:550px;
+    left: 50%;
+    /* top: -300px; */
+    margin-left: 0%;
+    height: 585px;
+    width: 474px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px black;
+    font-size: 15px;
+    color: black;
+    overflow: hidden;
   }
 
   .footercontainer {
@@ -518,5 +537,5 @@ h2 {
 
   .icon {
     width: 12px;
-  } 
+  }
 }
